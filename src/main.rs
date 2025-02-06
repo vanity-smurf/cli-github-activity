@@ -7,7 +7,7 @@ use std::collections::HashMap;
 async fn main() -> Result<(), Error> {
     let matches = Command::new("GitHub-Activity")
         .version("1.0")
-        .author("loser_smurf")
+        .author("vanity-smurf")
         .about("A simple CLI tool with one argument to get request to github")
         .arg(
             Arg::new("username")
