@@ -1,0 +1,11 @@
+[package]
+name = "github-activity"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = {version = "*", features = ["derive"]}
+reqwest = {version = "*", features = ["json"]}
+serde = {version = "*", features = ["derive"]}
+tokio = {version = "*", features = ["full"]}
+serde_json = "*"
